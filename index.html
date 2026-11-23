@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>عالم هاري بوتر | تأليف ابوالفضل تحسين</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;900&display=swap');
+  *{box-sizing:border-box}
+  :root{--gold:#e7c77a;--cream:#f4ead3;--muted:#c9bea8}
+  body{
+    margin:0;min-height:100vh;color:var(--cream);font-family:'Cairo',Tahoma,sans-serif;
+    background:
+      radial-gradient(ellipse at 50% 20%,rgba(117,91,153,.28),transparent 45%),
+      linear-gradient(180deg,rgba(5,7,18,.58),rgba(5,7,15,.93)),
+      url('https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=2000&q=85') center/cover fixed,
+      #080b17;
+  }
+  .veil{min-height:100vh;padding:24px clamp(16px,5vw,70px) 55px;background:linear-gradient(90deg,rgba(4,7,17,.55),rgba(4,7,17,.72))}
+  header{display:flex;align-items:center;justify-content:space-between;gap:18px;max-width:1150px;margin:0 auto 52px}
+  .credit{direction:rtl;text-align:left;color:var(--gold);font-size:14px;line-height:1.8;letter-spacing:.4px}
+  .brand{display:flex;align-items:center;gap:14px}
+  .brand h1{margin:0;font-family:'Amiri',serif;font-size:clamp(35px,6vw,66px);line-height:1;color:#fff3d3;text-shadow:0 0 18px #d5ad5b70}
+  .wand{width:13px;height:88px;position:relative;transform:rotate(38deg);transform-origin:center;animation:float 2.7s ease-in-out infinite;filter:drop-shadow(0 0 8px #e9c36e)}
+  .wand:before{content:"";position:absolute;left:4px;top:8px;width:5px;height:72px;border-radius:8px;background:linear-gradient(90deg,#704421,#d7a45b,#80502a)}
+  .wand:after{content:"✦";position:absolute;top:-12px;left:-4px;color:#fff1b2;font-size:23px;text-shadow:0 0 14px #ffe18b}
+  @keyframes float{0%,100%{transform:rotate(38deg) translateY(0)}50%{transform:rotate(28deg) translateY(-9px)}}
+  main{max-width:1000px;margin:auto}
+  .hero{text-align:center;margin:0 auto 36px}
+  .eyebrow{color:var(--gold);font-size:13px;letter-spacing:4px;margin-bottom:10px}
+  .hero h2{font-family:'Amiri',serif;font-size:clamp(34px,6vw,60px);margin:0 0 8px;color:#fff0ca;text-shadow:0 3px 20px #000}
+  .hero p{color:#e1d6c3;margin:0;font-size:15px}
+  .story{background:linear-gradient(135deg,rgba(17,20,36,.88),rgba(26,20,37,.82));border:1px solid #d7b76a55;border-radius:22px;padding:clamp(22px,4vw,42px);box-shadow:0 20px 70px #0008;backdrop-filter:blur(7px)}
+  .story h3{font-family:'Amiri',serif;color:var(--gold);font-size:30px;margin:0 0 14px}
+  .story p{font-size:16px;line-height:2.15;color:#eee5d5;margin:0 0 15px}
+  .quote{margin-top:24px;padding:17px 20px;border-right:3px solid var(--gold);background:#e4c77a12;color:#f2dfb4;font-family:'Amiri',serif;font-size:22px}
+  footer{text-align:center;color:#bdb19d;font-size:12px;margin-top:26px}
+  .spark{position:fixed;width:4px;height:4px;border-radius:50%;background:#ffe7a1;box-shadow:0 0 12px 3px #e7c77a88;animation:twinkle 3s infinite ease-in-out;pointer-events:none}
+  .s1{top:22%;left:12%}.s2{top:68%;left:83%;animation-delay:1s}.s3{top:42%;left:91%;animation-delay:1.7s}.s4{top:82%;left:20%;animation-delay:.6s}
+  @keyframes twinkle{0%,100%{opacity:.15;transform:scale(.7)}50%{opacity:1;transform:scale(1.7)}}
+  @media(max-width:600px){header{align-items:flex-start;margin-bottom:38px}.credit{font-size:11px}.wand{height:65px}.story p{font-size:14px}.veil{padding-top:20px}}
+</style>
+</head>
+<body>
+<div class="veil">
+  <span class="spark s1"></span><span class="spark s2"></span><span class="spark s3"></span><span class="spark s4"></span>
+  <header>
+    <div class="brand">
+      <h1>هاري بوتر</h1>
+      <span class="wand" aria-label="عصا سحرية متحركة"></span>
+    </div>
+    <div class="credit">تأليف<br><strong>ابوالفضل تحسين</strong></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">عَالَمٌ مِنَ السِّحْرِ وَالمُغَامَرَة</div>
+      <h2>حكاية الفتى الذي نجا</h2>
+      <p>رحلة هاري بوتر من حياة عادية إلى عالم مليء بالأسرار والصداقة والشجاعة</p>
+    </section>
+
+    <article class="story">
+      <h3>قصة حياة هاري بوتر</h3>
+      <p>
+        هاري بوتر فتى يتيم عاش في منزل خالته وعائلتها، وكان يظن أن حياته عادية،
+        إلى أن اكتشف في عيد ميلاده الحادي عشر أنه ساحر، وأنه قُبل في مدرسة
+        هوغوورتس للسحر والشعوذة.
+      </p>
+      <p>
+        في هوغوورتس تعرّف هاري إلى صديقَيه المقرّبين رون ويزلي وهيرمايوني
+        غرينجر، وتعلّم التعاويذ والجرعات والطيران على المكانس. وهناك بدأ
+        يكتشف أسرار ماضيه، وسبب شهرته في عالم السحرة، وعلاقته بالساحر
+        الشرير فولدمورت.
+      </p>
+      <p>
+        ومع مرور السنوات، واجه هاري وأصدقاؤه اختبارات ومخاطر كثيرة، وخاضوا
+        مغامرات كشفت لهم معنى الوفاء والتضحية. وكان على هاري أن يواجه
+        فولدمورت ويحمي من يحبهم، مستعيناً بالشجاعة وبمساندة أصدقائه
+        ومعلميه.
+      </p>
+      <p>
+        وفي النهاية، تصبح رحلة هاري حكاية عن الأمل وقوة الصداقة والاختيار
+        بين الخير والشر؛ فالسحر الحقيقي لا يكمن في العصا وحدها، بل في
+        القرارات التي نتخذها والروابط التي تجمعنا بالآخرين.
+      </p>
+      <div class="quote">«الشجاعة ليست ألّا نخاف، بل أن نفعل الصواب رغم خوفنا»</div>
+    </article>
+    <footer>صفحة تعريفية عن عالم هاري بوتر • تصميم ابوالفضل تحسين</footer>
+  </main>
+</div>
+</body>
+</html>
